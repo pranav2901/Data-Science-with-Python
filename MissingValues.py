@@ -75,7 +75,7 @@ df1.fillna(0)
 #-----------------Replacing Missing Values with Mean of the column-------------
 
 df1
-df1["Score"].fillna(df1["Score"].mean(), inplace=True)
+df1["Score"].fillna(df1["Score"].mean(),inplace=True)
 print(df1)
 
 #----------------Replacing Missing Value with Median of the column-------------
